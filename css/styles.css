@@ -1,0 +1,127 @@
+body {
+  color: #212121;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* pie de pagina  */
+
+.logo {
+  color: #2196f3;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.active-link {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.active-link:hover {
+  color: #2196f3;
+}
+.contacto-link {
+  color: #212121;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.contacto-link:hover {
+  color: #2196f3;
+}
+/*INDEX HTML*/
+/* SOLUCIONES EFICACES */
+.h1-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+}
+.button-index {
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* VALUES  */
+
+.values {
+  font-size: 14px;
+  font-weight: 700px;
+  line-height: 1.1px;
+}
+.values-description {
+  color: #757575;
+  font-size: 14px;
+}
+
+/* a que  nos dedicamos */
+
+.h2-title {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.2px;
+  color: #212121;
+}
+
+/* NUESTRO EQUIPO */
+
+.h3-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+.team-members {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #212121;
+}
+.position {
+  color: #757575;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* PORTAFOLIO HTML*/
+
+/* button*/
+
+.active-button {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+.active-button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+/* principal*/
+.list-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+.list-description {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+/* FOOTER  */
+
+.add {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.footer-contacto {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+}
