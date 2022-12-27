@@ -1,103 +1,131 @@
-.body {
+body {
   color: #212121;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 /* pie de pagina  */
 
 .logo {
   color: #2196f3;
   font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
   font-family: 'Raleway';
+  line-height: 1.2em;
+  font-weight: 700rem;
 }
 
 .active-link {
   color: #212121;
   font-size: 14px;
-  font-weight: 500;
-  line-height: 1.2;
+  font-weight: 500rem;
+  line-height: 1.2em;
 }
-.active-link:hover {
+.active-link-portafolio {
   color: #2196f3;
+  font-weight: 500rem;
+  font-size: 14px;
+  line-height: 1.2em;
+}
+.active-link-estudio {
+  font-weight: 500rem;
+  font-size: 14rpx;
+  color: #2196f3;
+  line-height: 1.2em;
 }
 .contacto-link {
-  color: #212121;
+  color: #757575;
   font-size: 14px;
-  line-height: 1.2;
-  font-weight: 500;
+  font-weight: 500rem;
+  cursor: pointer;
+  line-height: 1.2em;
 }
-.contacto-link:hover {
+.contacto-link-info {
+  font-weight: 500rem;
+  font-size: 14px;
+  line-height: 1.2em;
+
   color: #2196f3;
 }
 /*INDEX HTML*/
 /* SOLUCIONES EFICACES */
 .h1-title {
   font-size: 44px;
-  font-weight: 900;
-  line-height: 1.4;
+  font-weight: 900rem;
+  line-height: 1.4em;
 }
 .button-index {
   font-size: 16px;
-  line-height: 1.9;
-  font-weight: 700;
+  line-height: 1.9em;
   cursor: pointer;
+  background: #2196f3;
+  font-family: inherit;
 }
+.button-index-letras {
+  color: #ffffff;
+}
+.button-index
 /* VALUES  */
 
 .values {
+  font-weight: 700rem;
   font-size: 14px;
-  font-weight: 700px;
-  line-height: 1.1px;
+  line-height: 1.1em;
 }
 .values-description {
+  font-weight: 400rem;
   color: #757575;
   font-size: 14px;
+  line-height: 1.7em;
 }
 .values-gren {
+  font-weight: 400rem;
   font-size: 14px;
-  font-weight: 700px;
-  line-height: 1.1px;
   color: #757575;
+  line-height: 1.1em;
 }
 
 /* a que  nos dedicamos */
 
 .h2-title {
-  font-weight: 700px;
+  font-weight: 700rem;
   font-size: 36px;
-  line-height: 1.2px;
+  line-height: 1.2em;
   color: #212121;
 }
-
 /* NUESTRO EQUIPO */
 
 .h3-title {
   color: #212121;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2em;
+  font-weight: 700rem;
 }
 .team-members {
-  font-weight: 500px;
+  font-weight: 500rem;
   font-size: 16px;
-  line-height: 1.2;
   color: #212121;
+  line-height: 1.2em;
 }
 .position {
+  font-weight: 400rem;
   color: #757575;
-  font-weight: 400px;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.2em;
 }
 
 /* PORTAFOLIO HTML*/
 
 /* button*/
+.active-button-todo {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500rem;
+  cursor: pointer;
+  background: #2196f3;
+  color: #ffffff;
+}
 
 .active-button {
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.6em;
   font-weight: 500;
 }
 .active-button:hover {
@@ -108,26 +136,34 @@
 
 /* principal*/
 .list-title {
+  font-weight: 700rem;
   color: #212121;
-  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 1.2em;
 }
 .list-description {
   color: #757575;
-  font-weight: 400;
+  font-weight: 400rem;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.9em;
 }
 /* FOOTER  */
 
+.logo-footer {
+  color: #2196f3;
+  font-size: 26px;
+  font-family: 'Raleway';
+  line-height: 4.2em;
+  font-weight: 700rem;
+}
+
 .add {
   font-size: 14px;
-  line-height: 1.2;
-  font-weight: 500;
+  line-height: 1.2em;
+  font-weight: 500rem;
 }
 .footer-contacto {
   font-size: 14px;
-  line-height: 1.2;
-  font-weight: 500;
+  line-height: 1.2em;
+  font-weight: 500rem;
 }
