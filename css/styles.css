@@ -1,6 +1,6 @@
-body {
+.body {
   color: #212121;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif 'Roboto';
 }
 /* pie de pagina  */
 
@@ -10,6 +10,7 @@ body {
   font-family: 'Raleway';
   line-height: 1.2em;
   font-weight: 700rem;
+  text-decoration: none;
 }
 
 .active-link {
@@ -17,39 +18,53 @@ body {
   font-size: 14px;
   font-weight: 500rem;
   line-height: 1.2em;
+  text-decoration: none;
+}
+.active-link:hover {
+  color: #2196f3;
 }
 .active-link-portafolio {
   color: #2196f3;
   font-weight: 500rem;
   font-size: 14px;
   line-height: 1.2em;
+  text-decoration: none;
 }
 .active-link-estudio {
   font-weight: 500rem;
   font-size: 14rpx;
   color: #2196f3;
   line-height: 1.2em;
+  text-decoration: none;
 }
+
 .contacto-link {
   color: #757575;
   font-size: 14px;
   font-weight: 500rem;
-  cursor: pointer;
   line-height: 1.2em;
+  text-decoration: none;
+}
+.contacto-link:hover {
+  color: #2196f3;
 }
 .contacto-link-info {
   font-weight: 500rem;
   font-size: 14px;
   line-height: 1.2em;
-
+  text-decoration: none;
   color: #2196f3;
 }
 /*INDEX HTML*/
 /* SOLUCIONES EFICACES */
+.h1-title-container {
+  background: #2f303a;
+}
 .h1-title {
   font-size: 44px;
   font-weight: 900rem;
   line-height: 1.4em;
+  color: #ffffff;
 }
 .button-index {
   font-size: 16px;
@@ -118,7 +133,6 @@ body {
   font-size: 16px;
   line-height: 1.6;
   font-weight: 500rem;
-  cursor: pointer;
   background: #2196f3;
   color: #ffffff;
 }
@@ -131,7 +145,6 @@ body {
 .active-button:hover {
   color: #ffffff;
   background-color: #2196f3;
-  cursor: pointer;
 }
 
 /* principal*/
@@ -148,6 +161,9 @@ body {
   line-height: 1.9em;
 }
 /* FOOTER  */
+.footer-container {
+  background: #2f303a;
+}
 
 .logo-footer {
   color: #2196f3;
@@ -155,15 +171,19 @@ body {
   font-family: 'Raleway';
   line-height: 4.2em;
   font-weight: 700rem;
+  text-decoration: none;
 }
 
-.add {
+.footer-add {
   font-size: 14px;
   line-height: 1.2em;
   font-weight: 500rem;
+  color: #ffffff;
 }
 .footer-contacto {
   font-size: 14px;
   line-height: 1.2em;
   font-weight: 500rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
 }
