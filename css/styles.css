@@ -1,6 +1,11 @@
-#body {
+body {
   color: #212121;
-  font-family: Arial, Helvetica, sans-serif 'Roboto';
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+/*  VARIABLE  */
+:root {
+  --footer-fondo: #2f303a;
+  --titulos-texto: #212121;
 }
 /* pie de pagina  */
 
@@ -23,6 +28,9 @@
 .active-link:hover {
   color: #2196f3;
 }
+.active-link:focus {
+  color: magenta;
+}
 .active-link-portafolio {
   color: #2196f3;
   font-weight: 500rem;
@@ -37,6 +45,9 @@
   line-height: 1.2em;
   text-decoration: none;
 }
+.active-link-estudio:focus {
+  color: magenta;
+}
 
 .contacto-link {
   color: #757575;
@@ -48,6 +59,9 @@
 .contacto-link:hover {
   color: #2196f3;
 }
+.contacto-link:focus {
+  color: magenta;
+}
 .contacto-link-info {
   font-weight: 500rem;
   font-size: 14px;
@@ -55,10 +69,14 @@
   text-decoration: none;
   color: #2196f3;
 }
+.contacto-link-info:focus {
+  color: magenta;
+}
 /*INDEX HTML*/
 /* SOLUCIONES EFICACES */
+
 .h1-title-container {
-  background: #2f303a;
+  background: var(--footer-fondo);
 }
 .h1-title {
   font-size: 44px;
@@ -69,14 +87,16 @@
 .button-index {
   font-size: 16px;
   line-height: 1.9em;
-  cursor: pointer;
   background: #2196f3;
   font-family: inherit;
+  cursor: pointer;
+}
+.button-index:focus {
+  color: magenta;
 }
 .button-index-letras {
   color: #ffffff;
 }
-.button-index
 /* VALUES  */
 
 .values {
@@ -103,12 +123,12 @@
   font-weight: 700rem;
   font-size: 36px;
   line-height: 1.2em;
-  color: #212121;
+  color: var(--titulos-texto);
 }
 /* NUESTRO EQUIPO */
 
 .h3-title {
-  color: #212121;
+  color: var(--titulos-texto);
   font-size: 36px;
   line-height: 1.2em;
   font-weight: 700rem;
@@ -135,16 +155,25 @@
   font-weight: 500rem;
   background: #2196f3;
   color: #ffffff;
+  cursor: pointer;
+}
+.active-button-todo:focus {
+  color: magenta;
 }
 
 .active-button {
   font-size: 16px;
   line-height: 1.6em;
   font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
 }
 .active-button:hover {
   color: #ffffff;
   background-color: #2196f3;
+}
+.active-button:focus {
+  color: magenta;
 }
 
 /* principal*/
@@ -162,7 +191,7 @@
 }
 /* FOOTER  */
 .footer-container {
-  background: #2f303a;
+  background: var(--footer-fondo);
 }
 
 .logo-footer {
@@ -186,4 +215,10 @@
   font-weight: 500rem;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacto:hover {
+  color: #2196f3;
+}
+.footer-contacto:focus {
+  color: magenta;
 }
