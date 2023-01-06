@@ -14,14 +14,14 @@ body {
   font-size: 26px;
   font-family: 'Raleway';
   line-height: 1.2em;
-  font-weight: 700rem;
+  font-weight: 700;
   text-decoration: none;
 }
 
 .active-link {
   color: #212121;
   font-size: 14px;
-  font-weight: 500rem;
+  font-weight: 500;
   line-height: 1.2em;
   text-decoration: none;
 }
@@ -29,30 +29,30 @@ body {
   color: #2196f3;
 }
 .active-link:focus {
-  color: magenta;
+  color: #2196f3;
 }
 .active-link-portafolio {
   color: #2196f3;
-  font-weight: 500rem;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.2em;
   text-decoration: none;
 }
 .active-link-estudio {
-  font-weight: 500rem;
+  font-weight: 500;
   font-size: 14rpx;
   color: #2196f3;
   line-height: 1.2em;
   text-decoration: none;
 }
 .active-link-estudio:focus {
-  color: magenta;
+  color: #2196f3;
 }
 
 .contacto-link {
   color: #757575;
   font-size: 14px;
-  font-weight: 500rem;
+  font-weight: 500;
   line-height: 1.2em;
   text-decoration: none;
 }
@@ -60,17 +60,17 @@ body {
   color: #2196f3;
 }
 .contacto-link:focus {
-  color: magenta;
+  color: #2196f3;
 }
 .contacto-link-info {
-  font-weight: 500rem;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.2em;
   text-decoration: none;
   color: #2196f3;
 }
 .contacto-link-info:focus {
-  color: magenta;
+  color: #2196f3;
 }
 /*INDEX HTML*/
 /* SOLUCIONES EFICACES */
@@ -80,7 +80,7 @@ body {
 }
 .h1-title {
   font-size: 44px;
-  font-weight: 900rem;
+  font-weight: 900;
   line-height: 1.4em;
   color: #ffffff;
 }
@@ -92,7 +92,7 @@ body {
   cursor: pointer;
 }
 .button-index:focus {
-  color: magenta;
+  color: #2196f3;
 }
 .button-index-letras {
   color: #ffffff;
@@ -100,18 +100,18 @@ body {
 /* VALUES  */
 
 .values {
-  font-weight: 700rem;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.1em;
 }
 .values-description {
-  font-weight: 400rem;
+  font-weight: 400;
   color: #757575;
   font-size: 14px;
   line-height: 1.7em;
 }
 .values-gren {
-  font-weight: 400rem;
+  font-weight: 400;
   font-size: 14px;
   color: #757575;
   line-height: 1.1em;
@@ -120,7 +120,7 @@ body {
 /* a que  nos dedicamos */
 
 .h2-title {
-  font-weight: 700rem;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2em;
   color: var(--titulos-texto);
@@ -131,16 +131,16 @@ body {
   color: var(--titulos-texto);
   font-size: 36px;
   line-height: 1.2em;
-  font-weight: 700rem;
+  font-weight: 700;
 }
 .team-members {
-  font-weight: 500rem;
+  font-weight: 500;
   font-size: 16px;
   color: #212121;
   line-height: 1.2em;
 }
 .position {
-  font-weight: 400rem;
+  font-weight: 400;
   color: #757575;
   font-size: 16px;
   line-height: 1.2em;
@@ -152,13 +152,13 @@ body {
 .active-button-todo {
   font-size: 16px;
   line-height: 1.6;
-  font-weight: 500rem;
+  font-weight: 500;
   background: #2196f3;
   color: #ffffff;
   cursor: pointer;
 }
 .active-button-todo:focus {
-  color: magenta;
+  color: #2196f3;
 }
 
 .active-button {
@@ -173,19 +173,19 @@ body {
   background-color: #2196f3;
 }
 .active-button:focus {
-  color: magenta;
+  color: #2196f3;
 }
 
 /* principal*/
 .list-title {
-  font-weight: 700rem;
+  font-weight: 700px;
   color: #212121;
   font-size: 18px;
   line-height: 1.2em;
 }
 .list-description {
   color: #757575;
-  font-weight: 400rem;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.9em;
 }
@@ -199,20 +199,20 @@ body {
   font-size: 26px;
   font-family: 'Raleway';
   line-height: 4.2em;
-  font-weight: 700rem;
+  font-weight: 700;
   text-decoration: none;
 }
 
 .footer-add {
   font-size: 14px;
   line-height: 1.2em;
-  font-weight: 500rem;
+  font-weight: 500;
   color: #ffffff;
 }
 .footer-contacto {
   font-size: 14px;
   line-height: 1.2em;
-  font-weight: 500rem;
+  font-weight: 500;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -220,5 +220,5 @@ body {
   color: #2196f3;
 }
 .footer-contacto:focus {
-  color: magenta;
+  color: #2196f3;
 }
