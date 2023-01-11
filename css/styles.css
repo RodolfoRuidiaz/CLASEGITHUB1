@@ -17,6 +17,12 @@ body {
   font-weight: 700;
   text-decoration: none;
 }
+.logo:hover {
+  color: #212121;
+}
+.logo:focus {
+  color: #2196f3;
+}
 
 .active-link {
   color: #212121;
@@ -69,6 +75,9 @@ body {
   text-decoration: none;
   color: #2196f3;
 }
+.contacto-link-info:hover {
+  color: #2f303a;
+}
 .contacto-link-info:focus {
   color: #2196f3;
 }
@@ -84,9 +93,13 @@ body {
   line-height: 1.4em;
   color: #ffffff;
 }
+.h1-title:hover {
+  color: #2196f3;
+}
 .button-index {
   font-size: 16px;
   line-height: 1.9em;
+  list-style: none;
   background: #2196f3;
   font-family: inherit;
   cursor: pointer;
@@ -103,6 +116,10 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1em;
+  list-style: none;
+}
+.values:hover {
+  color: #2196f3;
 }
 .values-description {
   font-weight: 400;
@@ -110,11 +127,17 @@ body {
   font-size: 14px;
   line-height: 1.7em;
 }
+.values-description:hover {
+  color: #2196f3;
+}
 .values-gren {
   font-weight: 400;
   font-size: 14px;
   color: #757575;
   line-height: 1.1em;
+}
+.values-gren:hover {
+  color: #2196f3;
 }
 
 /* a que  nos dedicamos */
@@ -124,6 +147,10 @@ body {
   font-size: 36px;
   line-height: 1.2em;
   color: var(--titulos-texto);
+  list-style: none;
+}
+.h2-title:hover {
+  color: #2196f3;
 }
 /* NUESTRO EQUIPO */
 
@@ -133,17 +160,26 @@ body {
   line-height: 1.2em;
   font-weight: 700;
 }
+.h3-title:hover {
+  color: #2196f3;
+}
 .team-members {
   font-weight: 500;
   font-size: 16px;
   color: #212121;
   line-height: 1.2em;
 }
+.team-members:hover {
+  color: #2196f3;
+}
 .position {
   font-weight: 400;
   color: #757575;
   font-size: 16px;
   line-height: 1.2em;
+}
+.position:hover {
+  color: #2196f3;
 }
 
 /* PORTAFOLIO HTML*/
@@ -183,11 +219,17 @@ body {
   font-size: 18px;
   line-height: 1.2em;
 }
+.list-title:hover {
+  color: #2196f3;
+}
 .list-description {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9em;
+}
+.list-description:hover {
+  color: #2196f3;
 }
 /* FOOTER  */
 .footer-container {
@@ -202,12 +244,20 @@ body {
   font-weight: 700;
   text-decoration: none;
 }
-
+.logo-footer:hover {
+  color: #ffffff;
+}
+.logo-footer:focus {
+  color: #2196f3;
+}
 .footer-add {
   font-size: 14px;
   line-height: 1.2em;
   font-weight: 500;
   color: #ffffff;
+}
+.footer-add:hover {
+  color: #2196f3;
 }
 .footer-contacto {
   font-size: 14px;
