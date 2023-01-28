@@ -12,7 +12,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
@@ -20,29 +19,36 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <div class="nav-container">
-      <header class="container-header">
-      <nav class="container-nav">
-        <p><a class="logo" href="#">WebStudio</a></p>
-        <ul class="link-nave">
-          <li><a class="active-link-estudio" href="index.html">Estudio</a></li>
+    <header class="nav-container">
+      <div class="container header-position">
+        <nav class="container-nav">
+          <p><a class="logo" href="#">WebStudio</a></p>
+          <ul class="link-nave">
+            <li>
+              <a class="nav-link active" href="index.html">Estudio</a>
+            </li>
+            <li>
+              <a class="nav-link" href="portfolio.html">portafolio</a>
+            </li>
+            <li><a class="nav-link">contactos</a></li>
+          </ul>
+        </nav>
+        <ul class="link-cont">
           <li>
-            <a class="active-link" href="portfolio.html">portafolio</a>
+            <a class="contacto-link-info" href="info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a class="active-link">contactos</a></li>
+          <li>
+            <a class="contacto-link" href="+525555296000">+52 55 55296000</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="link-cont">
-      <li><a class="contacto-link-info" href="info@devstudio.com"
-        >info@devstudio.com</a>
-      </li>
-      <li><a class="contacto-link" href="+525555296000">+52 55 55296000</a>
-      </li>
+      </div>
     </header>
-  </div>
 
     <main>
       <section class="h1-title-container">
@@ -52,7 +58,7 @@
         </button>
       </section>
 
-      <section class="section">
+      <section class="container section">
         <ul>
           <li class="section-list">
             <h3 class="values">ATECION A LOS DETALLES</h3>
@@ -86,11 +92,12 @@
         </ul>
       </section>
 
-      <section class="section-thow">
+      <section class="container section-thow">
         <h2 class="h2-title">A que nos dedicamos</h2>
         <ul class="imag-list">
           <li class="imag-det">
-            <img class="imag-detalle"
+            <img
+              class="imag-detalle"
               src="images/imagen teclado.jpg"
               alt="teclado"
               width="373"
@@ -98,7 +105,7 @@
             />
           </li>
           <li class="imag-det">
-            <img 
+            <img
               src="images/imagen (2)tablet.jpg"
               alt="tablet"
               width="373"
@@ -115,11 +122,12 @@
           </li>
         </ul>
       </section>
-      <section class="section-dos">
+      <section class="container section-dos">
         <h3 class="h3-title">Nuestro equipo</h3>
         <ul class="list-equip">
           <li class="contenedor-blanco">
-            <img class="image-equipo"
+            <img
+              class="image-equipo"
               src="images/imagen (3) HOMBRE 1.jpg"
               alt="hombre1"
               width="270"
@@ -130,7 +138,8 @@
           </li>
 
           <li class="contenedor-blanco">
-            <img class="image-equipo"
+            <img
+              class="image-equipo"
               src="images/imagen (4) mujer 1.jpg"
               alt="hombre1"
               width="270"
@@ -140,7 +149,8 @@
             <p class="position">Desarrolladora frontend</p>
           </li>
           <li class="contenedor-blanco">
-            <img class="image-equipo"
+            <img
+              class="image-equipo"
               src="images/imagen (5) HOMBRE 2.jpg"
               alt="HOMBRE2"
               width="270"
@@ -150,7 +160,8 @@
             <p class="position">Marketing</p>
           </li>
           <li class="contenedor-blanco">
-            <img class="image-equipo"
+            <img
+              class="image-equipo"
               src="images/imagen (6) HOMBRE 3 .jpg"
               alt="HOMBRE3"
               width="270"
@@ -162,7 +173,7 @@
         </ul>
       </section>
     </main>
-    <footer class="footer-container">
+    <footer class="container footer-container">
       <p><a class="logo-footer" href="#">WebStudio</a></p>
       <address>
         <ul class="list-footer">

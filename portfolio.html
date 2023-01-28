@@ -10,7 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
@@ -18,32 +17,36 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>portfolio</title>
   </head>
-    <body>
-      <div class="nav-container">
-        <header class="container-header">
+  <body>
+    <header class="nav-container">
+      <div class="container header-position">
         <nav class="container-nav">
           <p><a class="logo" href="#">WebStudio</a></p>
           <ul class="link-nave">
-            <li><a class="active-link-portafolio" href="index.html">Estudio</a></li>
+            <li><a class="nav-link" href="index.html">Estudio</a></li>
             <li>
-              <a class="active-link" href="portfolio.html">portafolio</a>
+              <a class="nav-link active" href="portfolio.html">portafolio</a>
             </li>
-            <li><a class="active-link">contactos</a></li>
+            <li><a class="nav-link">contactos</a></li>
           </ul>
         </nav>
         <ul class="link-cont">
-        <li><a class="contacto-link" href="info@devstudio.com"
-          >info@devstudio.com</a>
-        </li>
-        <li><a class="contacto-link" href="+525555296000">+52 55 55296000</a>
-        </li>
-      </header>
-    </div>
-  </div>
+          <li>
+            <a class="contacto-link" href="info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contacto-link" href="+525555296000">+52 55 55296000</a>
+          </li>
+        </ul>
+      </div>
+    </header>
     <main>
-      <section class="container-porta">
+      <section class="container container-porta">
         <ul class="cont-button">
           <li>
             <button class="active-button-todo" type="button">todo</button>
@@ -60,46 +63,64 @@
           </li>
         </ul>
         <ul class="cont-portafolio-img">
-          <li class="cont-img-portafolio">
+          <li class="cont-img-portafolio-one">
             <a>
-              <img  class="image-porta" src="images/tecnoduck.jpg" width="370" />
+              <img class="image-porta" src="images/tecnoduck.jpg" width="370" />
               <h1 class="list-title">Tecnoduck</h1>
               <p class="list-description">Sitio Web</p>
             </a>
           </li>
-          <li class="cont-img-portafolio">
+          <li class="cont-img-portafolio-thow">
             <a>
-              <img  class="image-porta" src="images/Poster .jpg" width="370" />
+              <img
+                class="cont-img-green"
+                src="images/Poster .jpg"
+                width="370"
+              />
               <h1 class="list-title">
                 Poster de Nueva Orleans vs Estrella dorada
               </h1>
               <p class="list-description">Diseño</p>
             </a>
           </li>
-          <li class=cont-img-portafolio">
+          <li class="cont-img-portafolio-thow">
             <a>
-              <img  class="image-porta" src="images/Restaurante (11).jpg" width="370" />
+              <img
+                class="cont-img-green"
+                src="images/Restaurante (11).jpg"
+                width="370"
+              />
               <h1 class="list-title">Restaurante Seafood</h1>
               <p class="list-description">Apliaciones</p>
             </a>
           </li>
-          <li class="cont-img-portafolio">
+          <li class="cont-img-portafolio-thow">
             <a>
-              <img class="image-porta" src="images/proyecto.jpg" width="370" />
+              <img
+                class="cont-img-green"
+                src="images/proyecto.jpg"
+                width="370"
+              />
               <h1 class="list-title">Proyecto prime</h1>
               <p class="list-description">Marketing</p>
             </a>
           </li>
-          <li class="cont-img-portafolio">
+          <li class="cont-img-portafolio-thow">
             <a>
-              <img  class="image-porta" src="images/proyecto cajas .jpg" width="370" />
+              <img
+                class="cont-img-green"
+                class="image-porta"
+                src="images/proyecto cajas .jpg"
+                width="370"
+              />
               <h1 class="list-title">Proyecto cajas</h1>
               <p class="list-description">Aplicaciones</p>
             </a>
           </li>
-          <li class="cont-img-portafolio">
+          <li class="cont-img-portafolio-thow">
             <a>
-              <img class="image-porta"
+              <img
+                class="cont-img-green"
                 src="images/la inspiraciones no tiene limite.jpg"
                 width="370"
               />
@@ -107,23 +128,35 @@
               <p class="list-description">Sitio Web</p>
             </a>
           </li>
-          <li class="cont-img-portafolio">
+          <li class="cont-img-portafolio-thow">
             <a>
-              <img class="image-porta" src="images/edicion limitada.jpg" width="370" />
+              <img
+                class="cont-img-green"
+                src="images/edicion limitada.jpg"
+                width="370"
+              />
               <h1 class="list-title">Edicion Limitada</h1>
               <p class="list-description">Diseño</p>
             </a>
           </li>
-          <li class="cont-img-portafolio">
+          <li class="cont-img-portafolio-thow">
             <a>
-              <img  class="image-porta"src="images/proyecto lab.jpg" width="370" />
+              <img
+                class="cont-img-green"
+                src="images/proyecto lab.jpg"
+                width="370"
+              />
               <h1 class="list-title">Proyecto LAB</h1>
               <p class="list-description">Marketing</p>
             </a>
           </li>
-          <li class="cont-img-portafolio">
+          <li class="cont-img-portafolio-thow">
             <a>
-              <img class="image-porta"src="images/negocio en crecimiento.jpg" width="370" />
+              <img
+                class="cont-img-green"
+                src="images/negocio en crecimiento.jpg"
+                width="370"
+              />
               <h1 class="list-title">Negocio en crecimiento</h1>
               <p class="list-description">Aplicaciones</p>
             </a>
@@ -131,7 +164,7 @@
         </ul>
       </section>
     </main>
-    <footer class="footer-container">
+    <footer class="container footer-container">
       <p><a class="logo-footer" href="#">WebStudio</a></p>
       <address>
         <ul>
