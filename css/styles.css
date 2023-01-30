@@ -9,26 +9,28 @@ body {
   --IMAGE-INDEX: #2196f3;
 }
 /* pie de pagina  */
+.ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
 .container {
   width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 .header-position {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  margin-left: 80px;
-  margin-right: 19px;
-  min-width: 250;
 }
 .nav-container {
-  width: 1200px;
-  margin-left: 15px;
-  margin-right: 15px;
-  min-width: 250;
-  margin: 0;
-  list-style: none;
+  border-bottom: 1px solid #ececec;
 }
 .container-header {
   background: #ffffff;
@@ -52,31 +54,28 @@ body {
 .link-cont {
   display: flex;
   list-style: none;
+  gap: 50px;
 }
 .link-cont a {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.7142em;
-  letter-spacing: 0.02em;
-  margin-right: 50px;
-  padding: 0px;
+  line-height: 1.7;
+  letter-spacing: 0.02;
 }
 .link-nave {
   display: flex;
   list-style: none;
-  margin: auto;
+  gap: 50px;
 }
 .link-nave a {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.7142em;
+  line-height: 1.7;
   letter-spacing: 0.02em;
-  margin: auto;
-  margin-right: 50px;
 }
 
 .logo {
@@ -98,7 +97,6 @@ body {
   color: #212121;
   line-height: 1.2em;
   text-decoration: none;
-  margin: 30px;
 }
 .nav-link:hover {
   color: #2196f3;
@@ -142,7 +140,6 @@ body {
   margin: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  min-width: 250;
 }
 .h1-title {
   font-size: 44px;
@@ -182,15 +179,16 @@ body {
 .section {
   display: flex;
   padding-top: 95px;
-  min-width: 250;
+  justify-content: space-between;
+  gap: 30px;
 }
 .section ul {
   padding: 0%;
   margin: auto;
   display: flex;
+  gap: 30px;
 }
 .section-list {
-  margin-right: 30px;
   list-style: none;
 }
 .values {
@@ -213,13 +211,8 @@ body {
 
 /* a que  nos dedicamos */
 .section-thow {
-  display: block;
-  margin: auto;
-  width: auto;
   padding-top: 94px;
   list-style: none;
-
-  min-width: 250;
 }
 
 .h2-title {
@@ -229,21 +222,17 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166em;
+  line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .imag-list {
   display: flex;
-  margin: 50px;
-  margin-right: 0px;
-  padding-left: 15px;
   list-style: none;
+  justify-content: space-between;
 }
-.imag-det {
-  width: 373.16px;
-  height: 323.7px;
-  margin-right: 30.26px;
+.image-det {
+  height: 90px;
 }
 
 /* NUESTRO EQUIPO */
@@ -354,6 +343,7 @@ body {
 }
 
 /* principal*/
+
 .cont-portafolio-img {
   margin: auto;
   padding: 0px;
@@ -368,24 +358,6 @@ body {
   width: 370px;
   height: 294px;
 }
-.image-porta:hover {
-  border: 2px solid var(--IMAGE-INDEX);
-  border-radius: 2px;
-}
-
-.cont-img-portafolio-one {
-  width: 370px;
-  height: 404px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  background: #ffffff;
-  border-bottom: 1px solid #b0adad;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.cont-img-portafolio:hover {
-  color: #2196f3;
-}
 .cont-img-portafolio-thow {
   box-sizing: border-box;
   width: 370px;
@@ -394,6 +366,14 @@ body {
   margin-bottom: 20px;
   background: #ffffff;
   border: 1px solid #eeeeee;
+}
+.div-container {
+  padding-left: 24px;
+}
+.cont-img-portafolio-thow:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .cont-img-green {
   width: 370px;
@@ -409,17 +389,11 @@ body {
   font-size: 18px;
   line-height: 1.2em;
 }
-.list-title:hover {
-  color: #2196f3;
-}
 .list-description {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9em;
-}
-.list-description:hover {
-  color: #2196f3;
 }
 /* FOOTER  */
 .footer-container {
@@ -467,6 +441,7 @@ body {
   font-weight: 500;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  font-family: normal;
 }
 .footer-contacto:hover {
   color: #2196f3;
