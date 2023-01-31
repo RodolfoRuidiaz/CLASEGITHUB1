@@ -9,16 +9,7 @@ body {
   --IMAGE-INDEX: #2196f3;
 }
 /* pie de pagina  */
-.ul,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -31,6 +22,8 @@ h6 {
 }
 .nav-container {
   border-bottom: 1px solid #ececec;
+  gap: 90px;
+  align-items: center;
 }
 .container-header {
   background: #ffffff;
@@ -50,11 +43,15 @@ h6 {
 }
 .container-nav {
   display: flex;
+  gap: 90px;
+  align-items: center;
 }
 .link-cont {
   display: flex;
   list-style: none;
   gap: 50px;
+  padding: 0;
+  margin: 0;
 }
 .link-cont a {
   text-decoration: none;
@@ -68,6 +65,8 @@ h6 {
   display: flex;
   list-style: none;
   gap: 50px;
+  padding: 0;
+  margin: 0;
 }
 .link-nave a {
   text-decoration: none;
@@ -133,6 +132,16 @@ h6 {
 }
 /*INDEX HTML*/
 /* SOLUCIONES EFICACES */
+ul,
+li,
+h1,
+h2,
+h3,
+p,
+h4 {
+  padding: 0;
+  margin: 0;
+}
 
 .h1-title-container {
   background: var(--footer-fondo);
@@ -140,6 +149,7 @@ h6 {
   margin: auto;
   padding-top: 200px;
   padding-bottom: 200px;
+  align-items: center;
 }
 .h1-title {
   font-size: 44px;
@@ -154,6 +164,7 @@ h6 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding-bottom: 30px;
+  align-items: center;
 }
 .button-index {
   font-size: 16px;
@@ -190,6 +201,8 @@ h6 {
 }
 .section-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .values {
   font-weight: 700;
@@ -248,15 +261,17 @@ h6 {
   display: flex;
   margin: auto;
   padding: 0px;
+  gap: 30px;
 }
 .contenedor-blanco {
-  width: 270px;
-  height: 368px;
   background: #ffffff;
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin-right: 0;
+  height: 368px;
+  width: 270px;
 }
 .image-equipo {
   width: 270px;
@@ -279,6 +294,7 @@ h6 {
   color: #212121;
   line-height: 1.2em;
   text-align: center;
+  padding-top: 30px;
 }
 .position {
   font-weight: 400;
@@ -286,6 +302,7 @@ h6 {
   font-size: 16px;
   line-height: 1.2em;
   text-align: center;
+  padding-top: 10px;
 }
 
 /* PORTAFOLIO HTML pagina 2*/
@@ -343,6 +360,9 @@ h6 {
 }
 
 /* principal*/
+address {
+  font-style: normal;
+}
 
 .cont-portafolio-img {
   margin: auto;
@@ -419,6 +439,8 @@ h6 {
   padding: 0%;
   width: 231px;
   height: 92px;
+  list-style: none;
+  padding: 9px, 9px;
 }
 .logo-footer:hover {
   color: #ffffff;
@@ -431,9 +453,12 @@ h6 {
   line-height: 1.2em;
   font-weight: 500;
   color: #ffffff;
+  list-style: none;
+  padding-bottom: 9px;
 }
 .footer-add:hover {
   color: #2196f3;
+  list-style: none;
 }
 .footer-contacto {
   font-size: 14px;
@@ -441,7 +466,8 @@ h6 {
   font-weight: 500;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  font-family: normal;
+  font-style: normal;
+  list-style: none;
 }
 .footer-contacto:hover {
   color: #2196f3;
